@@ -1,0 +1,10 @@
+get all Gateways HTTP GET ->				api/gateways
+get gateway by id HTTP GET ->				api/gateways/{serialNumber}
+create gateway HTTP POST ->					api/gateways
+
+get all devices HTTP GET ->					api/devices
+get device by uid HTTP GET ->				api/devices/{uid}
+create devices HTTP POST ->					api/devices
+get devices per gateway HTTP GET ->			api/devices/gateway/{serialNumber}
+add device on gateway HTTP GET ->			api/devices/gateway/{serialNumber}/{uid}
+remove device from gateway HTTP DELETE ->	api/devices/gateway/{serialNumber}/{uid}
